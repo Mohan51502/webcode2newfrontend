@@ -36,6 +36,10 @@ export default function Viewusers() {
 
         <div className='d-flex justify-content-end'>
         <Link to="/admindash" className='btn btn-danger addbutton'>Back</Link>
+        <Link to="/useronly" className='btn btn-secondary addbutton'>View users</Link>
+        <Link to="/viewemployee" className='btn btn-primary addbutton'>View Employee</Link>
+
+
 
             <Link to="/adduser" className='btn btn-success'>Add +</Link>
 
